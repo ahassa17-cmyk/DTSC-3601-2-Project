@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# API credentials
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/raw/
+data/processed/*.csv
+
+# Saved machine learning models
+models/
+*.pkl
+
+# Mac files
+.DS_Store
+
+# Keep the small demo dataset
+!data/processed/nc_housing_sample.csv
