@@ -82,7 +82,9 @@ data/: Raw and processed dtatsets
 models/: Machine learning models
 
 Documentation
-Detailed explanations for the major function will be provided in docs/function.med
+For explanations of the main scripts, data processing steps,
+model training, and evaluation methods, see
+[Code Documentation](docs/functions.md).
 
 License
 This project carries an MIT license.
