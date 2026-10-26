@@ -64,6 +64,12 @@ The Enhanced Random Forest models performed better in this initial evaluation.
 
 The results are not yet completed. Some annual economic features were calculated using information from the full year, making the evaluation uncompelete and non-leakage free.
 
+Quick Demo
+A sample of 500 North Carolina housing data is included so users can test the models without downloading the full dataset.
+To train, run, and evaluate the Random Forest model, please run:
+python3 bin/run_demo.py
+Running this will load the data and train the model to allow the user to see a demonstration of how the code works. It is important to know that this is not to evaluate the final model's performance.
+
 Repository Structure
 DTSC-3601-2-Project/
 README.md
